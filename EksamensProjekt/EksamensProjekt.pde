@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 rock minsten;
 rock minsten2;
 rock minsten3;
@@ -20,18 +20,3 @@ void draw(){
   minsten2.render();
   minsten3.render();
 }
-=======
-
-
-
-
-
-
-
-
-
-
-
-
-//Gay
->>>>>>> 197a1dc6ba38830723cf83da76057432c8554419
