@@ -27,11 +27,11 @@ void draw(){
   minsten3.update();
   image(space, 0, 0);
   car(pos.x, pos.y);
-  offScreenBuffer.beginDraw();
+  //offScreenBuffer.beginDraw();
    
-  offScreenBuffer.background(128);
-  offScreenBuffer.endDraw();
-  mask(offScreenBuffer);
+  //offScreenBuffer.background(128);
+  //offScreenBuffer.endDraw();
+  //mask(offScreenBuffer);
   minsten.render();
   minsten2.render();
   minsten3.render();
