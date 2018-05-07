@@ -1,35 +1,4 @@
 
-PVector pos;
-int frameNr;
-PImage pic0;
-PImage pic1;
-PGraphics offScreenBuffer;
-PGraphics buffer;
-
-void setup(){
-  size(1400,900);
-  pic0 = new PImage(50,50);
-  pic1 = loadImage("test.png");
-  buffer = createGraphics(width, height);
-  offScreenBuffer = createGraphics(width, height);
-  background(150);
-  pos = new PVector(0,0);
-  
-
- 
-}
-
-void draw(){
- 
-     car(pos.x, pos.y);
-      offScreenBuffer.beginDraw();
-   
-   offScreenBuffer.background(128);
-    offScreenBuffer.endDraw();
-  mask(offScreenBuffer);
-      
-    }
-
 void car(float x, float y){
   
   frameNr +=1;
