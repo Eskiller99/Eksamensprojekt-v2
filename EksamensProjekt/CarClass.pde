@@ -77,33 +77,6 @@ void car(float x, float y){
     offScreenBuffer.popMatrix();
   }
     offScreenBuffer.popMatrix();
-    //offScreenBuffer.loadPixels();
-    //for (int i = 0; i > 100; i++){
-    //  for (int j = 0; j > 100; j++){
-    //    offScreenBuffer.pixels[i+width*j] = color(0,255,0);
-    //  }
-    //}
-    // offScreenBuffer.updatePixels();
-    
-    //color pink = color(255, 102, 204);
-    //offScreenBuffer.loadPixels();
-    //for (int i = 0; i < (width*height/2)-width/2; i++) {
-    //  offScreenBuffer.pixels[i] = color(0,0,0,0);
-    //}
-    //offScreenBuffer.updatePixels();
- 
-   
-    //color pink = color(255, 102, 204);
-    //offScreenBuffer.loadPixels();
-    //for (int i = 0; i < (width*height/2)-width/2; i++) {
-    //  offScreenBuffer.pixels[i] = color(0,0,0,0);
-    //}
-    //offScreenBuffer.updatePixels();
-    
-    
-    
-    //offScreenBuffer.fill(color(0,0,0,128));
-    //offScreenBuffer.rect(0,0,1000,1000);
     offScreenBuffer.endDraw();
     
     
