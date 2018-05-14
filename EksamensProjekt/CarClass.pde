@@ -1,13 +1,8 @@
 
 void car(float x, float y){
-  background(0,255,0);
   offScreenBuffer.beginDraw();
-  
- 
-  
+
   frameNr +=1;
-  //offScreenBuffer.background(255,0,0);
-  offScreenBuffer.fill(255);
   offScreenBuffer.stroke(100);
   offScreenBuffer.pushMatrix();
   offScreenBuffer.translate(x,y);
@@ -29,8 +24,9 @@ void car(float x, float y){
   offScreenBuffer.quad(400,280,400,410,80,400,100,340);
   offScreenBuffer.fill(50);
   offScreenBuffer.rect(370,295,20,50,10);
-  offScreenBuffer.rect(680,340,30,20,8);
-  offScreenBuffer.triangle(700,360,705,340,740,360);
+  offScreenBuffer.fill(0);
+  offScreenBuffer.rect(650,330,30,20,8);
+  offScreenBuffer.triangle(670,350,675,330,720,350);
   offScreenBuffer.fill(210);
   offScreenBuffer.rect(480,410,30,15,5);
   offScreenBuffer.stroke(0);
@@ -41,6 +37,10 @@ void car(float x, float y){
   offScreenBuffer.line(400,350,500,500);
   offScreenBuffer.line(660,500,780,360);
   offScreenBuffer.strokeWeight(0);
+    //offScreenBuffer.fill(50);
+    //offScreenBuffer.quad(420,290,580,290,725,350,420,350);
+    //offScreenBuffer.quad(360,300,220,330,220,350,360,350);
+    //offScreenBuffer.fill(255);
   //Wheels
   for(int i =   0; i < 2; i++){
     offScreenBuffer.translate(600,100);
